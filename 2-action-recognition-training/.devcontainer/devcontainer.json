@@ -1,0 +1,12 @@
+{
+    "runArgs": ["--runtime", "nvidia", "--gpus", "all", "--privileged", "--memory=50g"],
+    "appPort": "0.0.0.0:8099:8098",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-vscode.cpptools", "ms-vscode.cpptools-extension-pack", "ms-vscode.cmake-tools"]
+        }
+    },
+    "build": {
+        "dockerfile": "Dockerfile"    
+    }
+}
