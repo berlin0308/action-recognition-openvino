@@ -3,7 +3,7 @@
 This repository contains code and resources for building an action recognition system using TensorFlow, MoViNet, and OpenVINO.
 
 ## Project Structure
-- [**1-data-preparation/**](#1-data-preparation)
+- [**1-data-preparation/**](1-data-preparation)
   - **Description:** Scripts for recording and annotating video data.
   - **Requirements:** Python 3.x
 
