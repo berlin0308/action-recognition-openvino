@@ -1,22 +1,28 @@
 # Action Recognition with OpenVINO
 
-This repository contains code and resources for building an action recognition system using TensorFlow, MoviNet, and OpenVINO.
+This repository contains code and resources for building an action recognition system using TensorFlow, MoViNet, and OpenVINO.
 
 ## Project Structure
-- **`1-data-preparation/:`** Scripts for recording and annotating video data.
-  - Python 3.x
-- `2-action-recognition-training/`: Training scripts for action recognition models using Docker.
-  - **Environment Requirements**: 
-    - Docker (with DevContainer setup)
-    - GPU-enabled device for training
-- `3-model-conversion-openvino/`: Scripts for converting models to OpenVINO format.
-  - **Environment Requirements**: Python 3.x
-- `4-edge-inference/`: C++ code for running models on edge devices.
-  - **Environment Requirements**: 
-    - Edge device with C++ compiler
-    - OpenVINO runtime
-- `5-view-app/`: A simple C# application for displaying results.
-  - **Environment Requirements**: .NET runtime
+- ### **1-data-preparation/**
+  - **Description:** Scripts for recording and annotating video data.
+  - **Requirements:** Python 3.x
+
+- ### **2-action-recognition-training/**
+  - **Description:** Training scripts for action recognition using MoViNet-Stream architecture.
+  - **Requirements:** Docker (Ubuntu + TensorFlow 2.9.0) + devices with GPU
+
+- ### **3-model-conversion-openvino/**
+  - **Description:** Scripts for converting MoViNet-Stream models to OpenVINO format.
+  - **Requirements:** Python 3.x
+    
+- ### **4-edge-inference/**
+  - **Description:** C++ code for running models on edge devices with Intel CPU/iGPU.
+  - **Requirements:** C++ compiler + OpenVINO runtime
+  - 
+- ### **5-view-app/**
+  - **Description:** A simple C# application for displaying results.
+  - **Requirements:** .NET runtime
+    
 
 ## Getting Started
 
