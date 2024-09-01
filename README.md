@@ -25,3 +25,4 @@ This repository contains code and resources for building an action recognition s
     
 ## Performance Test
 
+<img src="performance.jpeg" style="width:700px;">
