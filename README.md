@@ -23,15 +23,3 @@ This repository contains code and resources for building an action recognition s
   - **Description:** A simple C# application for displaying results and LED control.
   - **Requirements:** .NET runtime
     
-
-## Getting Started
-
-### Prerequisites
-To work with this repository, you will need the following environments configured:
-
-1. **Python 3.x**: Required for scripts in `1-data-preparation` and `3-model-conversion-openvino`.
-   - Install required Python packages using `pip install -r requirements.txt` in each folder.
-2. **Docker**: Used for training environment setup in `2-action-recognition-training`.
-   - A GPU-enabled device is required for efficient model training.
-3. **C++ Compiler and OpenVINO Runtime**: Required for running inference on edge devices in `4-edge-inference`.
-   - Ensure OpenVINO is installed
