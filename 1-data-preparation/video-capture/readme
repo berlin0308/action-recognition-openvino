@@ -1,0 +1,25 @@
+# 2024/08/29
+
+# ffmpeg decode ipcam record to mp4 10 fps
+record_mp4_ffmpeg.py
+
+# baee on IPCAM fps 30 using skip frame to archive fps 10 record 
+# line 109 hard code i % 3
+
+#user manual
+1. Use mouse setup Record RIO
+2. Press Key 'R' or 'r' or ' ' Record/Pause
+3. Output folder collected_mp4  by Datetime mp4
+ - _raw.mp4 full ipcam 
+ - other.mp4 crop_video
+* Press key 'V' play pre-record Video
+
+
+#config file
+config.json
+
+#ROI 224x224 
+x1, y1, x2, y2
+
+# ipcam url
+rtsp_url

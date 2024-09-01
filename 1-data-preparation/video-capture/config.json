@@ -1,0 +1,8 @@
+{
+    "x1": 619,
+    "y1": 265,
+    "x2": 1500,
+    "y2": 884,
+    "rtsp_url": "rtsp://admin:ushop123@172.22.132.140/Streaming/Channels/1",
+    "rtsp_url2": "rtsp://admin:aics12345@192.168.100.2/Streaming/Channels/1"
+}
