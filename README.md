@@ -23,3 +23,5 @@ This repository contains code and resources for building an action recognition s
   - **Description:** A simple C# application for displaying results and LED control.
   - **Requirements:** .NET runtime
     
+## Performance Test
+
