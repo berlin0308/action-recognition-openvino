@@ -1,0 +1,11 @@
+#2024/08/29
+
+framesaver.py
+# Usage 
+# framesaver.py <video path>
+python .\Labeling\framesaver.py Recording\collected_mp4\2024-07-30\2024-07-30-10-52-11.mp4
+
+# Keypress ' ' to pause
+# Keypress 's' to clip
+# On clip windows keypress '0'~'9'=> 0~9,  'F10': 10,  'F1'~'F9' : 11-19
+# save to labeled_mp4/
