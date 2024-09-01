@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KioskHttpClientApp", "KioskHttpClientApp.csproj", "{D957041E-5BA5-4111-BCB4-DFF61BE4A9D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{E5930144-B001-4CC9-8A23-59082AEA2383}"
+	ProjectSection(SolutionItems) = preProject
+		LEDControl.cs = LEDControl.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D957041E-5BA5-4111-BCB4-DFF61BE4A9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D957041E-5BA5-4111-BCB4-DFF61BE4A9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D957041E-5BA5-4111-BCB4-DFF61BE4A9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D957041E-5BA5-4111-BCB4-DFF61BE4A9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B47A4F3B-0199-4B8A-A4BF-3B0283B826F3}
+	EndGlobalSection
+EndGlobal
