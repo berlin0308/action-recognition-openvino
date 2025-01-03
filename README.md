@@ -2,6 +2,10 @@
 
 This repository contains code and resources for building an action recognition system using TensorFlow, MoViNet, and OpenVINO.
 
+## Performance
+
+<img src="performance.jpeg" style="width:700px;">
+
 ## Project Structure
 - [**1-data-preparation/**](1-data-preparation)
   - **Description:** Scripts for recording and annotating video data.
@@ -23,6 +27,4 @@ This repository contains code and resources for building an action recognition s
   - **Description:** A simple C# application for displaying results and LED control.
   - **Requirements:** .NET runtime
     
-## Performance Test
 
-<img src="performance.jpeg" style="width:700px;">
